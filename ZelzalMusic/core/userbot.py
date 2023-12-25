@@ -55,6 +55,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
+                await self.one.join_chat("ZThon_Music")
                 await self.one.join_chat("Zelzal_Music")
                 await self.one.join_chat("AAAl1l")
                 await self.one.join_chat("ZThon")
